@@ -1,0 +1,13 @@
+Rules for OpenEdit Stylesheets
+
+Examples:
+keywords [
+ vars [
+  integers ["char", "short" "int", "long"],
+  floats ["float", "double"]
+ ]
+]
+
+rules [
+  vars: "{ |,|;|\n}${ |\n}"
+]
